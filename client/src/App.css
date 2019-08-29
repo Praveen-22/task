@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Saira&display=swap');
+
+.fontsaira{
+  font-family: 'Saira', sans-serif;
+}
+.nopadding{
+  padding: 0px;
+}
+.nomargin{
+  margin: 0px;
+}
+.nodisplay{
+  display: none;
+}
+.display{
+  display: block;
+}
+.loginScreen{
+  width: 100%;
+  height: 100vh;
+  background: #f0f0f0;
+}
+.loginBox{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgb(83, 83, 83);
+  border-radius: 10px;
+}
+.textlogin{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  outline: none;
+  border: 0px;
+  font-size: 17px;
+  border-bottom: 2px solid #cfcfcf;
+}
+.submitLogin{
+  background: #1b76ff;
+  color: #fff;
+  border: 0px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.usernamebutton{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #1b76ff;
+  color: #1b76ff;
+  padding: 5px 0px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.navbarAdmin{
+  background: #252525;
+  padding: 15px 25px;
+  color: #fff;
+}
+.adminhead{
+  display: inline-block;
+}
+.adminvaul{
+  padding: 0px;
+  float: right;
+}
+.adminvali{
+  display: inline-block;
+  padding: 8px 0px 8px 20px;
+  font-size: 17px;
+}
+.adminvalilink{
+  color: #fff;
+}
+.adminvalilink:hover{
+  color: #fff;
+}
+.newUser{
+  width: 60%;
+  margin: auto;
+  padding: 40px 0px;
+}
+.newuserPlace{
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0px 0px 2px #0f0f0f;
+  border-radius: 10px;
+}
+.empformheading{
+  font-size: 17px;
+  padding: 10px 10px 0px 10px;
+}
+.empformtext{
+  width: 100%;
+  margin: 0px 10px;
+  background-color: transparent;
+  border:0px;
+  outline: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 0px;
+}
+.radiobuttons{
+  margin:15px 10px;
+}
+.radiolables{
+  padding: 0px 10px;
+  font-size: 17px;
+}
+.selection{
+  width: 100%;
+  margin: 0px 10px;
+  background-color: transparent;
+  border:0px;
+  outline: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 0px;
+}
+.submitButtonemp{
+  margin: 20px 10px 0px 10px;
+  width: 100%;
+  padding: 10px;
+  background: #1b76ff;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+}
+.textcenter{
+  text-align: center;
+}
+.empHeading{
+  text-transform: uppercase;
+  color: #fff;
+  background: #383838;
+  padding: 10px 0px;
+  font-size: 17px;
+}
+.empContents:nth-child(odd){
+  background-color: #dfdfdf
+}
+.empContents:nth-child(even){
+  background-color: #ffffff;
+}
+.empContent{
+  text-transform: capitalize;
+  padding: 20px 10px;
+}
+.AddButton{
+  margin: 10px;
+  background: #ff4d4d;
+  color: #fff;
+  border:0px;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+.viewBox{
+  padding: 30px 0px;
+}
+.empBox:nth-child(odd){
+  background-color: #dfdfdf;
+  font-family: 'Saira', sans-serif;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+.empBox:nth-child(even){
+  background-color: #f5f5f5;
+  font-family: 'Saira', sans-serif;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+.empHeadingsDet{
+  padding: 10px 15px;
+}
+.empContentmet{
+  font-weight: normal;
+  padding: 10px 15px;
+}
+.metBox{
+  padding: 15px 0px;
+}
+.metHeading{
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.metsubHeading{
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.metValue{
+  padding: 5px;
+  background: #4287f5;
+  color: #fff;
+  border-radius: 5px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 10px 0px;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  background: #4287f5;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 10px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.metSubmit{
+  background-color: #4287f5;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.downloadbutton{
+  width: 100%;
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  .loginBox {
+    width : 80%;
+  }
+  .newUser {
+    width : 80%;
+  }
+}
